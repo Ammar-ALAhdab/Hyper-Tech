@@ -1,0 +1,657 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Website Icon -->
+    <link rel="shortcut icon" type="image/ico" href="images/logo.png" />
+    <!-- Bootsrap 5 -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <!-- Swiper Js Css -->
+    <link href="css/swiper-bundle.min.css" rel="stylesheet" />
+    <!-- Font Awsome -->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <!-- Our Style -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet" />
+    <title>Hyper Tech</title>
+  </head>
+
+  <body>
+    <!-- Start Upper Navbar -->
+    <nav class="navbar navbar-expand-lg upper-nav">
+      <div class="container">
+        <!-- Brand Logo -->
+        <div class="navbar-brand d-inline-block">
+          <img src="images/logo.png" alt="Logo" />
+        </div>
+        <!-- Search Box -->
+        <form class="mx-md-auto mx-lg-0 ms-lg-auto d-none d-md-flex" role="search">
+          <input class="form-control" type="search" placeholder="Search Products & Brands" aria-label="Search" />
+          <button class="btn btn-outline-success" type="submit">
+            <span><i class="fa fa-search"></i>Search</span>
+          </button>
+        </form>
+        <!-- Burger Icons -->
+        <button class="navbar-toggler ms-md-3 ms-lg-0" type="button" data-bs-toggle="collapse" data-bs-target="#nav-links" aria-controls="nav-links" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+    </nav>
+    <!-- End Upper Navbar -->
+    <!-- Start Lower Navbar -->
+    <nav class="navbar navbar-expand-lg lower-nav">
+      <div class="container">
+        <div class="collapse navbar-collapse" id="nav-links">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active ps-0" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#offers">Offers</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#services">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Categories</a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="#product" data-sort="all"
+                    ><span><i class="fa fa-tag"></i></span>All Offers</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#product" data-sort="mob"
+                    ><span><i class="fa fa-phone"></i></span>Mobile & Taplets</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#product" data-sort="lap"
+                    ><span><i class="fa fa-laptop"></i></span>Laptop</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#product" data-sort="com"
+                    ><span><i class="fa fa-desktop"></i></span>Desktop</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#product" data-sort="cam"
+                    ><span><i class="fa fa-camera"></i></span>Digital Camera</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#product" data-sort="tv"
+                    ><span><i class="fa fa-tv"></i></span>Smart TV</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#product" data-sort="acc"
+                    ><span><i class="fa fa-shopping-bag"></i></span>Accessories</a
+                  >
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+        <div class="info d-flex mx-auto mx-lg-0">
+          <span class="navbar-text box">Cart <i class="fa fa-cart-shopping"></i></span>
+          <span class="navbar-text box">Log in <i class="fa fa-sign-in"></i> </span>
+          <span class="navbar-text box">Sign in <i class="fa fa-user"></i> </span>
+        </div>
+      </div>
+    </nav>
+    <!-- End Lower Navbar -->
+    <!-- Start Land Images Carousel -->
+    <div id="img-carousel" class="carousel slide home-carousle" data-bs-ride="true">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#img-carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#img-carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#img-carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#img-carousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        <button type="button" data-bs-target="#img-carousel" data-bs-slide-to="4" aria-label="Slide 5"></button>
+        <button type="button" data-bs-target="#img-carousel" data-bs-slide-to="5" aria-label="Slide 6"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item carousel-one active"></div>
+        <div class="carousel-item carousel-two"></div>
+        <div class="carousel-item carousel-three"></div>
+        <div class="carousel-item carousel-four"></div>
+        <div class="carousel-item carousel-five"></div>
+        <div class="carousel-item carousel-six"></div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#img-carousel" data-bs-slide="prev">
+        <span aria-hidden="true"><i class="fa fa-angle-left fa-2x"></i></span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#img-carousel" data-bs-slide="next">
+        <span aria-hidden="true"><i class="fa fa-angle-right fa-2x"></i></span>
+      </button>
+    </div>
+    <!-- End Land Images Carousel -->
+    <!-- Start Our Amazing Products -->
+    <main class="proudcts-section" id="product">
+      <div class="container">
+        <div class="control-buttons d-flex align-items-center justify-content-between mb-3">
+          <h2 class="title">We Have Amazing Products</h2>
+          <div>
+            <span class="me-3">New Prodcuts</span>
+            <span class="me-3 active">Feautred</span>
+            <span>Best Seller</span>
+          </div>
+        </div>
+        <div class="categories-icon d-flex align-items-center justify-content-center mb-4">
+          <div class="icons mx-auto d-flex align-items-center justify-content-center">
+            <button class="active" data-sort="all">All</button>
+            <button><img src="images/categories-icon/c-1.png" alt="" data-sort="mob" /></button>
+            <button><img src="images/categories-icon/c-2.png" alt="" data-sort="cam" /></button>
+            <button><img src="images/categories-icon/c-3.png" alt="" data-sort="lap" /></button>
+            <button><img src="images/categories-icon/c-4.png" alt="" data-sort="tv" /></button>
+            <button><img src="images/categories-icon/c-5.png" alt="" data-sort="com" /></button>
+            <button data-sort="acc"><i class="fa fa-shopping-bag" data-sort="acc"></i></button>
+          </div>
+          <div class="chevron">
+            <span class="left me-2 d-inline-flex align-items-center justify-content-center"><i class="fa fa-chevron-left"></i></span>
+            <span class="right d-inline-flex align-items-center justify-content-center"><i class="fa fa-chevron-right"></i></span>
+          </div>
+        </div>
+        <!-- This Row For Generated Products Boxes -->
+        <div class="row"></div>
+        <!-- End Row For Generated Products Boxes -->
+      </div>
+    </main>
+    <!-- End Our Amazing Products  -->
+    <!-- Start Ad Banner -->
+    <section class="ad">
+      <div class="container text-left">
+        <h2 class="title">Market Ads</h2>
+        <div class="content">
+          <img class="banner wide d-none d-md-block" src="images/banners/b-01.png" />
+          <img class="banner d-block d-md-none mx-auto" src="images/banners/b-02.png" />
+        </div>
+      </div>
+    </section>
+    <!-- End Ad Banner -->
+    <!-- Start Offers Slider -->
+    <section class="offers-section" id="offers">
+      <div class="container">
+        <h2 class="title">Best Offers</h2>
+        <div class="slide-container swiper">
+          <div class="slide-content">
+            <div class="card-wrapper swiper-wrapper">
+              <div class="card swiper-slide">
+                <span class="see hover-span"><i class="fa fa-eye"></i></span>
+                <span class="cart hover-span"><i class="fa fa-shopping-cart"></i></span>
+                <span class="favorite hover-span"><i class="fa fa-heart"></i></span>
+                <div class="img-container">
+                  <img src="images/products/offers/off-01.jpg" alt="" />
+                </div>
+                <div class="content">
+                  <h3 class="brand-name">One Plus</h3>
+                  <div class="discount-rate my-3 py-2">
+                    <span class="rate d-inline-block">
+                      <i class="fa fa-star active"></i>
+                      <i class="fa fa-star active"></i>
+                      <i class="fa fa-star active"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                    </span>
+                    <span class="discount d-inline-block"
+                      ><strong>$800</strong> <span class="actual-price"><strike>$850</strike></span></span
+                    >
+                  </div>
+                  <button class="buy">Add To Cart</button>
+                </div>
+              </div>
+              <div class="card swiper-slide">
+                <span class="see hover-span"><i class="fa fa-eye"></i></span>
+                <span class="cart hover-span"><i class="fa fa-shopping-cart"></i></span>
+                <span class="favorite hover-span"><i class="fa fa-heart"></i></span>
+                <div class="img-container">
+                  <img src="images/products/offers/off-02.jpg" alt="" />
+                </div>
+                <div class="content">
+                  <h3 class="brand-name">Laptop</h3>
+                  <div class="discount-rate my-3 py-2">
+                    <span class="rate d-inline-block">
+                      <i class="fa fa-star active"></i>
+                      <i class="fa fa-star active"></i>
+                      <i class="fa fa-star active"></i>
+                      <i class="fa fa-star active"></i>
+                      <i class="fa fa-star"></i>
+                    </span>
+                    <span class="discount d-inline-block"
+                      ><strong>$700</strong> <span class="actual-price"><strike>$720</strike></span></span
+                    >
+                  </div>
+                  <button class="buy">Add To Cart</button>
+                </div>
+              </div>
+              <div class="card swiper-slide">
+                <span class="see hover-span"><i class="fa fa-eye"></i></span>
+                <span class="cart hover-span"><i class="fa fa-shopping-cart"></i></span>
+                <span class="favorite hover-span"><i class="fa fa-heart"></i></span>
+                <div class="img-container">
+                  <img src="images/products/offers/off-03.jpg" alt="" />
+                </div>
+                <div class="content">
+                  <h3 class="brand-name">Gaming Headphone</h3>
+                  <div class="discount-rate my-3 py-2">
+                    <span class="rate d-inline-block">
+                      <i class="fa fa-star active"></i>
+                      <i class="fa fa-star active"></i>
+                      <i class="fa fa-star active"></i>
+                      <i class="fa fa-star active"></i>
+                      <i class="fa fa-star"></i>
+                    </span>
+                    <span class="discount d-inline-block"
+                      ><strong>$450</strong> <span class="actual-price"><strike>$470</strike></span></span
+                    >
+                  </div>
+                  <button class="buy">Add To Cart</button>
+                </div>
+              </div>
+              <div class="card swiper-slide">
+                <span class="see hover-span"><i class="fa fa-eye"></i></span>
+                <span class="cart hover-span"><i class="fa fa-shopping-cart"></i></span>
+                <span class="favorite hover-span"><i class="fa fa-heart"></i></span>
+                <div class="img-container">
+                  <img src="images/products/offers/off-04.jpg" alt="" />
+                </div>
+                <div class="content">
+                  <h3 class="brand-name">Smart Watch</h3>
+                  <div class="discount-rate my-3 py-2">
+                    <span class="rate d-inline-block">
+                      <i class="fa fa-star active"></i>
+                      <i class="fa fa-star active"></i>
+                      <i class="fa fa-star active"></i>
+                      <i class="fa fa-star active"></i>
+                      <i class="fa fa-star active"></i>
+                    </span>
+                    <span class="discount d-inline-block"
+                      ><strong>$400</strong> <span class="actual-price"><strike>$430</strike></span></span
+                    >
+                  </div>
+                  <button class="buy">Add To Cart</button>
+                </div>
+              </div>
+              <div class="card swiper-slide">
+                <span class="see hover-span"><i class="fa fa-eye"></i></span>
+                <span class="cart hover-span"><i class="fa fa-shopping-cart"></i></span>
+                <span class="favorite hover-span"><i class="fa fa-heart"></i></span>
+                <div class="img-container">
+                  <img src="images/products/offers/off-05.jpg" alt="" />
+                </div>
+                <div class="content">
+                  <h3 class="brand-name">Alexa</h3>
+                  <div class="discount-rate my-3 py-2">
+                    <span class="rate d-inline-block">
+                      <i class="fa fa-star active"></i>
+                      <i class="fa fa-star active"></i>
+                      <i class="fa fa-star active"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                    </span>
+                    <span class="discount d-inline-block"
+                      ><strong>$300</strong> <span class="actual-price"><strike>$319</strike></span></span
+                    >
+                  </div>
+                  <button class="buy">Add To Cart</button>
+                </div>
+              </div>
+              <div class="card swiper-slide">
+                <span class="see hover-span"><i class="fa fa-eye"></i></span>
+                <span class="cart hover-span"><i class="fa fa-shopping-cart"></i></span>
+                <span class="favorite hover-span"><i class="fa fa-heart"></i></span>
+                <div class="img-container">
+                  <img src="images/products/offers/off-06.jpg" alt="" />
+                </div>
+                <div class="content">
+                  <h3 class="brand-name">Smart TV</h3>
+                  <div class="discount-rate my-3 py-2">
+                    <span class="rate d-inline-block">
+                      <i class="fa fa-star active"></i>
+                      <i class="fa fa-star active"></i>
+                      <i class="fa fa-star active"></i>
+                      <i class="fa fa-star active"></i>
+                      <i class="fa fa-star"></i>
+                    </span>
+                    <span class="discount d-inline-block"
+                      ><strong>$3999</strong> <span class="actual-price"><strike>$4199</strike></span></span
+                    >
+                  </div>
+                  <button class="buy">Add To Cart</button>
+                </div>
+              </div>
+              <div class="card swiper-slide">
+                <span class="see hover-span"><i class="fa fa-eye"></i></span>
+                <span class="cart hover-span"><i class="fa fa-shopping-cart"></i></span>
+                <span class="favorite hover-span"><i class="fa fa-heart"></i></span>
+                <div class="img-container">
+                  <img src="images/products/offers/off-07.jpg" alt="" />
+                </div>
+                <div class="content">
+                  <h3 class="brand-name">Advanced Keybord</h3>
+                  <div class="discount-rate my-3 py-2">
+                    <span class="rate d-inline-block">
+                      <i class="fa fa-star active"></i>
+                      <i class="fa fa-star active"></i>
+                      <i class="fa fa-star active"></i>
+                      <i class="fa fa-star active"></i>
+                      <i class="fa fa-star active"></i>
+                    </span>
+                    <span class="discount d-inline-block"
+                      ><strong>$250</strong> <span class="actual-price"><strike>$299</strike></span></span
+                    >
+                  </div>
+                  <button class="buy">Add To Cart</button>
+                </div>
+              </div>
+              <div class="card swiper-slide">
+                <span class="see hover-span"><i class="fa fa-eye"></i></span>
+                <span class="cart hover-span"><i class="fa fa-shopping-cart"></i></span>
+                <span class="favorite hover-span"><i class="fa fa-heart"></i></span>
+                <div class="img-container">
+                  <img src="images/products/offers/off-08.jpg" alt="" />
+                </div>
+                <div class="content">
+                  <h3 class="brand-name">Gaming laptop</h3>
+                  <div class="discount-rate my-3 py-2">
+                    <span class="rate d-inline-block">
+                      <i class="fa fa-star active"></i>
+                      <i class="fa fa-star active"></i>
+                      <i class="fa fa-star active"></i>
+                      <i class="fa fa-star active"></i>
+                      <i class="fa fa-star"></i>
+                    </span>
+                    <span class="discount d-inline-block"
+                      ><strong>$9999</strong> <span class="actual-price"><strike>$1099</strike></span></span
+                    >
+                  </div>
+                  <button class="buy">Add To Cart</button>
+                </div>
+              </div>
+              <div class="card swiper-slide">
+                <span class="see hover-span"><i class="fa fa-eye"></i></span>
+                <span class="cart hover-span"><i class="fa fa-shopping-cart"></i></span>
+                <span class="favorite hover-span"><i class="fa fa-heart"></i></span>
+                <div class="img-container">
+                  <img src="images/products/offers/off-09.jpg" alt="" />
+                </div>
+                <div class="content">
+                  <h3 class="brand-name">Gaming Setup</h3>
+                  <div class="discount-rate my-3 py-2">
+                    <span class="rate d-inline-block">
+                      <i class="fa fa-star active"></i>
+                      <i class="fa fa-star active"></i>
+                      <i class="fa fa-star active"></i>
+                      <i class="fa fa-star active"></i>
+                      <i class="fa fa-star active"></i>
+                    </span>
+                    <span class="discount d-inline-block"
+                      ><strong>$4299</strong> <span class="actual-price"><strike>$4599</strike></span></span
+                    >
+                  </div>
+                  <button class="buy">Add To Cart</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- It's Doesn't Work ! -->
+        <div class="swiper-button-next slide-btn right"></div>
+        <div class="swiper-button-prev slide-btn left"></div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+    <!-- End Offers Slider -->
+    <!-- Start Services Section-->
+    <section class="services" id="services">
+      <div class="container">
+        <h2 class="title">Services</h2>
+        <div class="row text-center">
+          <div class="col-sm-6 col-md-4 col-lg-3">
+            <div class="serv-box">
+              <i class="fas fa-lock"></i>
+              <h3>100% secure payments</h3>
+              <p>Moving your card details to a much more secured place.</p>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-3">
+            <div class="serv-box">
+              <i class="fas fa-shield"></i>
+              <h3>trustpay</h3>
+              <p>100% Payment protection and easy return policy.</p>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-3">
+            <div class="serv-box">
+              <i class="fas fa-earth"></i>
+              <h3>shop any where!</h3>
+              <p>Download app and shop any where</p>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-3">
+            <div class="serv-box">
+              <i class="fas fa-phone"></i>
+              <h3>support 24/24</h3>
+              <p>You have a question ? contact with us or see FAQs</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Services Section-->
+    <!-- Start Gallery Section-->
+    <section class="gallery">
+      <div class="container">
+        <h2 class="title">Gallery</h2>
+        <div class="row">
+          <div class="col-sm-6 col-md-4 col-lg-3">
+            <div class="box-img">
+              <img src="images/gallery/g-01.jpg" alt="" />
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-3">
+            <div class="box-img">
+              <img src="images/gallery/g-02.jpg" alt="" />
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-3">
+            <div class="box-img">
+              <img src="images/gallery/g-03.jpg" alt="" />
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-3">
+            <div class="box-img">
+              <img src="images/gallery/g-04.jpg" alt="" />
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-3">
+            <div class="box-img">
+              <img src="images/gallery/g-05.jpg" alt="" />
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-3">
+            <div class="box-img">
+              <img src="images/gallery/g-06.jpg" alt="" />
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-3">
+            <div class="box-img">
+              <img src="images/gallery/g-07.jpg" alt="" />
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-3">
+            <div class="box-img">
+              <img src="images/gallery/g-08.jpg" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Gallery Section-->
+    <!-- Start Sponsers Section-->
+    <section class="sponsers">
+      <div class="container">
+        <h2 class="title">Sponsers</h2>
+        <div class="row">
+          <div class="col-sm-6 col-md-4 col-lg-3">
+            <div class="box-img">
+              <img src="images/sponsers/demo_img_1.png" alt="" />
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-3">
+            <div class="box-img">
+              <img src="images/sponsers/demo_img_2.png" alt="" />
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-3">
+            <div class="box-img">
+              <img src="images/sponsers/demo_img_3.png" alt="" />
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-3">
+            <div class="box-img">
+              <img src="images/sponsers/demo_img_4.png" alt="" />
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-3">
+            <div class="box-img">
+              <img src="images/sponsers/demo_img_5.png" alt="" />
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-3">
+            <div class="box-img">
+              <img src="images/sponsers/demo_img_6.png" alt="" />
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-3">
+            <div class="box-img">
+              <img src="images/sponsers/demo_img_7.png" alt="" />
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-3">
+            <div class="box-img">
+              <img src="images/sponsers/demo_img_8.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Sponsers Section-->
+    <!-- Start Testimonials Section-->
+    <section class="testimonials">
+      <div class="container">
+        <h2 class="title">Testimonials</h2>
+        <div class="row">
+          <div class="col-sm-6 col-md-4 col-lg-3">
+            <div class="box-testimonial">
+              <div class="person-detail d-flex align-items-center justify-content-between mb-3">
+                <div class="person-img"><img src="./images/testimonials/demo_img_1.png" alt="" /></div>
+                <div class="person-name">
+                  <p class="name mb-0">Eve Tayloer</p>
+                  <p class="jop-tiltle mb-0">Manger Of Sony Digital LLc.</p>
+                </div>
+              </div>
+              <div class="person-comment">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur quisquam quidem enim quod consequatur amet labore provident!</p>
+              </div>
+              <div class="rate">
+                <i class="filled fas fa-star"></i>
+                <i class="filled fas fa-star"></i>
+                <i class="filled fas fa-star"></i>
+                <i class="filled fas fa-star"></i>
+                <i class="filled fas fa-star"></i>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-3">
+            <div class="box-testimonial">
+              <div class="person-detail d-flex align-items-center justify-content-between mb-3">
+                <div class="person-img"><img src="./images/testimonials/demo_img_2.png" alt="" /></div>
+                <div class="person-name">
+                  <p class="name mb-0">Ronaldo CJ.</p>
+                  <p class="jop-tiltle mb-0">Manger Of Google Marketing Dept.</p>
+                </div>
+              </div>
+              <div class="person-comment">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur quisquam quidem enim quod consequatur amet labore provident!</p>
+              </div>
+              <div class="rate">
+                <i class="filled fas fa-star"></i>
+                <i class="filled fas fa-star"></i>
+                <i class="filled fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-3">
+            <div class="box-testimonial">
+              <div class="person-detail d-flex align-items-center justify-content-between mb-3">
+                <div class="person-img"><img src="./images/testimonials/demo_img_3.png" alt="" /></div>
+                <div class="person-name">
+                  <p class="name mb-0">Sandra Kozvech</p>
+                  <p class="jop-tiltle mb-0">CEO Microsoft.</p>
+                </div>
+              </div>
+              <div class="person-comment">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur quisquam quidem enim quod consequatur amet labore provident!</p>
+              </div>
+              <div class="rate">
+                <i class="filled fas fa-star"></i>
+                <i class="filled fas fa-star"></i>
+                <i class="filled fas fa-star"></i>
+                <i class="filled fas fa-star"></i>
+                <i class="filled fas fa-star"></i>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-3">
+            <div class="box-testimonial">
+              <div class="person-detail d-flex align-items-center justify-content-between mb-3">
+                <div class="person-img"><img src="./images/testimonials/demo_img_4.jpeg" alt="" /></div>
+                <div class="person-name">
+                  <p class="name mb-0">James Web</p>
+                  <p class="jop-tiltle mb-0">CEO & Founder Hakers Days Co.</p>
+                </div>
+              </div>
+              <div class="person-comment">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur quisquam quidem enim quod consequatur amet labore provident!</p>
+              </div>
+              <div class="rate">
+                <i class="filled fas fa-star"></i>
+                <i class="filled fas fa-star"></i>
+                <i class="filled fas fa-star"></i>
+                <i class="filled fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Testimonials Section-->
+    <!-- Js For Bootsrtap -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <!-- Jquery Library -->
+    <script src="js/jquery-3.6.0.min.js" type="text/javascript"></script>
+    <!-- Swiper Js Library -->
+    <script src="js/swiper-bundle.min.js"></script>
+    <!-- Jquery -->
+    <script src="js/myjquery.js"></script>
+    <!-- Js -->
+    <script src="js/main.js"></script>
+  </body>
+</html>

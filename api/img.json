@@ -1,0 +1,101 @@
+{
+  "all": [
+    { "brandName": "JBL Headphone", "price": 199, "discount": 10, "url": "images/products/all/all-", "rate": 3 },
+    { "brandName": "JBL Headphone", "price": 220, "discount": 15, "url": "images/products/all/all-", "rate": 5 },
+    { "brandName": "Laptop", "price": 1100, "discount": 10, "url": "images/products/all/all-", "rate": 4 },
+    { "brandName": "Laptop", "price": 3400, "discount": 20, "url": "images/products/all/all-", "rate": 3 },
+    { "brandName": "Desktop", "price": 1400, "discount": 30, "url": "images/products/all/all-", "rate": 4 },
+    { "brandName": "Desktop", "price": 2600, "discount": 25, "url": "images/products/all/all-", "rate": 5 },
+    { "brandName": "Smart TV", "price": 2900, "discount": 10, "url": "images/products/all/all-", "rate": 3 },
+    { "brandName": "Smart TV", "price": 4000, "discount": 15, "url": "images/products/all/all-", "rate": 5 },
+    { "brandName": "Taplet", "price": 199, "discount": 10, "url": "images/products/all/all-", "rate": 4 },
+    { "brandName": "Taplet", "price": 199, "discount": 10, "url": "images/products/all/all-", "rate": 5 },
+    { "brandName": "Iphone 14 Pro Max", "price": 1299, "discount": 10, "url": "images/products/all/all-", "rate": 3 },
+    { "brandName": "S22 Ultra", "price": 1199, "discount": 10, "url": "images/products/all/all-" , "rate" : 5} ,
+    { "brandName": "Digital Camera", "price": 1200, "discount": 5, "url": "images/products/all/all-", "rate": 5 },
+    { "brandName": "Digital Camera", "price": 600, "discount": 5, "url": "images/products/all/all-", "rate": 4 },
+    { "brandName": "Gaming Mouse", "price": 20, "discount": 1, "url": "images/products/all/all-", "rate": 3 },
+    { "brandName": "SD Card 128", "price": 40, "discount": 1, "url": "images/products/all/all-", "rate": 2 }
+  ],
+  "cam": [
+    { "brandName": "Digital Camera", "price": 700, "discount": 5, "url": "images/products/cam/cam-", "rate": 5 },
+    { "brandName": "Digital Camera", "price": 300, "discount": 15, "url": "images/products/cam/cam-", "rate": 4 },
+    { "brandName": "Digital Camera", "price": 400, "discount": 10, "url": "images/products/cam/cam-", "rate": 4 },
+    { "brandName": "Digital Camera", "price": 250, "discount": 5, "url": "images/products/cam/cam-", "rate": 4 },
+    { "brandName": "Digital Camera", "price": 199, "discount": 10, "url": "images/products/cam/cam-", "rate": 3 },
+    { "brandName": "Digital Camera", "price": 1200, "discount": 5, "url": "images/products/cam/cam-", "rate": 4 },
+    { "brandName": "Digital Camera", "price": 600, "discount": 15, "url": "images/products/cam/cam-", "rate": 3 },
+    { "brandName": "Digital Camera", "price": 550, "discount": 10, "url": "images/products/cam/cam-", "rate": 5 }
+  ],
+  "com": [
+    { "brandName": "Desktop", "price": 1800, "discount": 5, "url": "images/products/com/com-", "rate": 4 },
+    { "brandName": "Desktop", "price": 1200, "discount": 5, "url": "images/products/com/com-", "rate": 5 },
+    { "brandName": "Desktop", "price": 2100, "discount": 5, "url": "images/products/com/com-", "rate": 4 },
+    { "brandName": "Desktop", "price": 1500, "discount": 5, "url": "images/products/com/com-", "rate": 4 },
+    { "brandName": "Desktop", "price": 3400, "discount": 10, "url": "images/products/com/com-", "rate": 5 },
+    { "brandName": "Desktop", "price": 4100, "discount": 5, "url": "images/products/com/com-", "rate": 4 },
+    { "brandName": "Desktop", "price": 5200, "discount": 15, "url": "images/products/com/com-", "rate": 3 },
+    { "brandName": "Desktop", "price": 399, "discount": 1, "url": "images/products/com/com-", "rate": 5 }
+  ],
+  "lap": [
+    { "brandName": "Laptop", "price": 2400, "discount": 5, "url": "images/products/lap/lap-", "rate": 5 },
+    { "brandName": "Laptop", "price": 4500, "discount": 10, "url": "images/products/lap/lap-", "rate": 4 },
+    { "brandName": "Laptop", "price": 5199, "discount": 10, "url": "images/products/lap/lap-", "rate": 5 },
+    { "brandName": "Laptop", "price": 1000, "discount": 5, "url": "images/products/lap/lap-", "rate": 5 },
+    { "brandName": "Laptop", "price": 1800, "discount": 5, "url": "images/products/lap/lap-", "rate": 5 },
+    { "brandName": "Laptop", "price": 700, "discount": 5, "url": "images/products/lap/lap-", "rate": 4 },
+    { "brandName": "Laptop", "price": 300, "discount": 10, "url": "images/products/lap/lap-", "rate": 5 },
+    { "brandName": "Laptop", "price": 600, "discount": 5, "url": "images/products/lap/lap-", "rate": 4 }
+  ],
+  "mob": [
+    { "brandName": "S22 Ultra", "price": 1199, "discount": 5, "url": "images/products/mob/mob-", "rate": 5 },
+    { "brandName": "One Plus", "price": 600, "discount": 5, "url": "images/products/mob/mob-", "rate": 3 },
+    { "brandName": "One Plus", "price": 899, "discount": 5, "url": "images/products/mob/mob-", "rate": 3 },
+    { "brandName": "Xiaomi", "price": 499, "discount": 10, "url": "images/products/mob/mob-", "rate": 4 },
+    { "brandName": "Huawei", "price": 999, "discount": 10, "url": "images/products/mob/mob-", "rate": 5 },
+    { "brandName": "Oppo", "price": 240, "discount": 1, "url": "images/products/mob/mob-", "rate": 4 },
+    { "brandName": "infinex", "price": 99, "discount": 5, "url": "images/products/mob/mob-", "rate": 4 },
+    { "brandName": "Iphone 14 Pro Max", "price": 1299, "discount": 5, "url": "images/products/mob/mob-", "rate": 4 }
+  ],
+  "acc": [
+    { "brandName": "Gaming Headphone", "price": 199, "discount": 5, "url": "images/products/acc/acc-", "rate": 3 },
+    { "brandName": "Gaming Mouse", "price": 99, "discount": 1, "url": "images/products/acc/acc-", "rate": 4 },
+    { "brandName": "Gaming Pad", "price": 10, "discount": 1, "url": "images/products/acc/acc-", "rate": 2 },
+    { "brandName": "Gaming Keybord", "price": 50, "discount": 5, "url": "images/products/acc/acc-", "rate": 5 },
+    { "brandName": "Microphone", "price": 20, "discount": 1, "url": "images/products/acc/acc-", "rate": 43 },
+    { "brandName": "SD Card 128", "price": 3, "discount": 1, "url": "images/products/acc/acc-", "rate": 5 },
+    { "brandName": "HDMI Plugin", "price": 5, "discount": 1, "url": "images/products/acc/acc-", "rate": 2 },
+    { "brandName": "Web Cam", "price": 15, "discount": 1, "url": "images/products/acc/acc-", "rate": 1 }
+  ],
+  "tab": [
+    { "brandName": "Taplet", "price": 499, "discount": 5, "url": "images/products/tab/tab-", "rate": 4 },
+    { "brandName": "Taplet", "price": 399, "discount": 10, "url": "images/products/tab/tab-", "rate": 5 },
+    { "brandName": "Taplet", "price": 899, "discount": 5, "url": "images/products/tab/tab-", "rate": 4 },
+    { "brandName": "Taplet", "price": 400, "discount": 5, "url": "images/products/tab/tab-", "rate": 5 },
+    { "brandName": "Taplet", "price": 699, "discount": 5, "url": "images/products/tab/tab-", "rate": 4 },
+    { "brandName": "Taplet", "price": 550, "discount": 10, "url": "images/products/tab/tab-", "rate": 5 },
+    { "brandName": "Taplet", "price": 450, "discount": 20, "url": "images/products/tab/tab-", "rate": 4 },
+    { "brandName": "Taplet", "price": 199, "discount": 5, "url": "images/products/tab/tab-", "rate": 4 }
+  ],
+  "tv": [
+    { "brandName": "Smart TV", "price": 4999, "discount": 20, "url": "images/products/tv/tv-", "rate": 5 },
+    { "brandName": "Smart TV", "price": 3099, "discount": 10, "url": "images/products/tv/tv-", "rate": 4 },
+    { "brandName": "Smart TV", "price": 5999, "discount": 20, "url": "images/products/tv/tv-", "rate": 4 },
+    { "brandName": "Smart TV", "price": 1599, "discount": 5, "url": "images/products/tv/tv-", "rate": 5 },
+    { "brandName": "Smart TV", "price": 1999, "discount": 5, "url": "images/products/tv/tv-", "rate": 4 },
+    { "brandName": "Smart TV", "price": 800, "discount": 10, "url": "images/products/tv/tv-", "rate": 3 },
+    { "brandName": "Smart TV", "price": 550, "discount": 5, "url": "images/products/tv/tv-", "rate": 4 },
+    { "brandName": "Smart TV", "price": 4799, "discount": 10, "url": "images/products/tv/tv-", "rate": 5 }
+  ],
+  "offers": [
+    { "brandName": "One Plus", "price": 850, "discount": 10, "url": "images/products/offers/off-", "rate": 4 },
+    { "brandName": "Laptop", "price": 700, "discount": 10, "url": "images/products/offers/off-", "rate": 5 },
+    { "brandName": "Gaming Headphone", "price": 600, "discount": 5, "url": "images/products/offers/off-", "rate": 5 },
+    { "brandName": "Smart Watch", "price": 400, "discount": 15, "url": "images/products/offers/off-", "rate": 3 },
+    { "brandName": "Alexa", "price": 250, "discount": 5, "url": "images/products/offers/off-", "rate": 4 },
+    { "brandName": "Smart TV", "price": 4300, "discount": 10, "url": "images/products/offers/off-", "rate": 4 },
+    { "brandName": "Advanced Keybord", "price": 500, "discount": 5, "url": "images/products/offers/off-", "rate": 5 },
+    { "brandName": "Gaming laptop", "price": 1400, "discount": 5, "url": "images/products/offers/off-", "rate": 3 },
+    { "brandName": "Gaming Setup", "price": 3700, "discount": 15, "url": "images/products/offers/off-", "rate": 5 }
+  ]
+}
